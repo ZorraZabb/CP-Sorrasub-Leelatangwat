@@ -23,5 +23,7 @@ if username == 'Good' and password == '1234':
         take3 = int(input('รับกี่ชิ้นดีครับ? :'))
         print('ราคาทั้งหมด :', apPrice * take3, 'Baht')
         print('--------------------------------------------')
+    else:
+        print('เลือกดีๆหน่อยเห้ย!!')
 else:
     print('อีนี้ใครเนี้ย!!')
